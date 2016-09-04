@@ -21,7 +21,7 @@ Sign an advocate up at ReferralCandy and retrieve the advocate's Referral Link c
     $result = $rc->request('signup', $params);
 
     if ($result['success'] && ($result['response']['message'] == Referralcandy::MESSAGE_SUCCESS || $result['response']['message'] == 'Contact already signed up.')) {
-
+    	// Advocate has been successfully registered at ReferralCandy
         $link_code = preg_replace("/.*\/([^\/]+)/", '$1', $result['response']['referral_link']);
         $portal_code = preg_replace("/.*\/([^\/]+)/", '$1', $result['response']['referralcorner_url']);
     }
