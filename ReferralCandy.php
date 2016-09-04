@@ -29,11 +29,10 @@ class ReferralCandy {
     protected $secret_key;
     protected $logger;
 
-    public function __construct($access_id, $secret_key, $logger)
+    public function __construct($access_id, $secret_key)
     {
         $this->access_id  = $access_id;
         $this->secret_key = $secret_key;
-        $this->logger     = $logger;
     }
 
     /**
