@@ -150,7 +150,7 @@ class ReferralCandy {
             return array();
         }
         if (!function_exists('json_decode')) {
-            throw new \Exception("json_decode function is not enabled in your PHP'", 1);
+            throw new \Exception("json_decode function is not enabled in your PHP", 1);
         }
 
         return json_decode($jsong_string, true);
