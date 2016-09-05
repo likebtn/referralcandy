@@ -47,7 +47,7 @@ Register a new purchase at ReferralCandy.
 	$rc = new ReferralCandy('access_id', 'secret_key');
     $result = $rc->request('purchase', $params);
 
-	if ($result['success'] && ($result['response']['message'] == Referralcandy::MESSAGE_SUCCESS) {
+	if ($result['success'] && $result['response']['message'] == Referralcandy::MESSAGE_SUCCESS) {
 		// Purchase has been successfully registered at ReferralCandy
     }
 
