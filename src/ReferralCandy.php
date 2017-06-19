@@ -6,6 +6,8 @@
  * @author LikeBtn.com <support@likebtn.com>
  */
 
+namespace ReferralCandy;
+
 class ReferralCandy {
 
     const API_URL = 'https://my.referralcandy.com/api/v1/';
