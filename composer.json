@@ -1,0 +1,12 @@
+{
+    "name": "likebtn/ReferralCandy",
+    "type": "project",
+    "description": "LikeBtn / ReferralCandy",
+    "autoload": {
+        "psr-4": { "ReferralCandy\\": "src" }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "minimum-stability": "stable"
+}
