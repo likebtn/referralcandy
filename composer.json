@@ -2,6 +2,9 @@
     "name": "likebtn/referralcandy",
     "type": "project",
     "description": "LikeBtn / ReferralCandy",
+    "keywords": ["referral candy"],
+    "homepage": "https://likebtn.com",
+    "license": "MIT",
     "autoload": {
         "psr-4": { "ReferralCandy\\": "src" }
     },
